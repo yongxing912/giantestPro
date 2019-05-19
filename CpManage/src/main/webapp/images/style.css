@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+body, div {margin:0; padding:0;font-style: normal;font:16px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+ol, ul ,li{list-style:none}
+img {border: 50px; vertical-align:middle }
+body{color:#000000;background:#FFF; text-align:center}
+a{color:#000000;text-decoration:none}
+a:hover{color:#BA2636;text-decoration:underline}
+.box1,.box2,.box3,.box4{ width:1024px; height:767px; margin:0 auto;}
+.box1{background:url(login.png)}
+.box2{background:url(login.png) no-repeat center}
+.box3{background:url(login.png) repeat-x 0 30px}
+.box4{background:url(login.png) repeat-y center}
+.box5{
+    font:19px arial,sans-serif;
+}
+.box6{
+    font:italic bold 30px Georgia,serif;
+}
+.box7 {color:rgb(200,0,0); text-align: center;
+    font-size: 50px;padding-top: 40px}
+.box8 {color:rgb(250,0,0); font-size: 20px}

@@ -1,0 +1,91 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>customerListServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.CustomerListServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>customerDeleteServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.CustomerDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>customerSaveServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.CustomerSaveServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>productListServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.ProductListServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>customerComboList</servlet-name>
+        <servlet-class>com.yongxing912.web.CustomerComboListServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>productDeleteServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.ProductDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>productSaveServlet</servlet-name>
+        <servlet-class>com.yongxing912.web.ProductSaveServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>productSaveServlet</servlet-name>
+        <url-pattern>/productSave</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>productDeleteServlet</servlet-name>
+        <url-pattern>/productDelete</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>customerComboList</servlet-name>
+        <url-pattern>/customerComboList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>productListServlet</servlet-name>
+        <url-pattern>/productList</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>customerSaveServlet</servlet-name>
+        <url-pattern>/customerSave</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>customerDeleteServlet</servlet-name>
+        <url-pattern>/customerDelete</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>customerListServlet</servlet-name>
+        <url-pattern>/customerList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+</web-app>
