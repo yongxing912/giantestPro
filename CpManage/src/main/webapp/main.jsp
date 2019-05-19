@@ -53,6 +53,9 @@
                         "text": "参数设置", "state": "closed", "children":
                             [
                                 {"text": "设置一"},
+                                {"text": "数据库管理"},
+                                {"text": "FTP管理管理"},
+                                {"text": "管理员工具"},
                                 {"text": "密码修改"},
                                 {"text": "注销"}
                             ]
